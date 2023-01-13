@@ -44,9 +44,6 @@
 			<div class=container>
 				<a class="js-scroll-trigger navbar-brand" href=index.html >
 					Lili Zhao's Homepage
-                    <!-- <a href="https://www.cityu.edu.hk/" target="_blank" rel="noopener">
-                        <img src="img/tongji.png" alt="" width="40"/>
-                    </a> -->
 				</a>
 				<button class="navbar-toggler navbar-toggler-right" type=button data-toggle=collapse data-target=#navbarResponsive aria-controls=navbarResponsive aria-expanded=false aria-label="Toggle navigation">
 					<span class=navbar-toggler-icon></span>
@@ -173,14 +170,14 @@
 									<strong>Rangeinet: Fast Lidar Point Cloud Temporal Interpolation</strong><br>
 									<U>Lili Zhao</U>, Xuhu Lin, <a href="https://scholar.google.com/citations?user=K4wurXEAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener"><font color="#000000"> Wenyi Wang</font></a>,<a href="https://www3.ntu.edu.sg/home/ekkma/" target="_blank" rel="noopener">
 										<font color="#000000">Kai-Kuang Ma</font></a>, and Jianwen Chen.<br>
-										Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022, pp. 2584-2588. <br>
+										IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2022. <br>
 									<a shape="rect" href="javascript:toggleabs('icassp2022')" class="toggleabs"><font color="#337ab7"> Abstract </font></a>| <a href="https://ieeexplore.ieee.org/abstract/document/9747825" target="_blank" rel="noopener"> <font color="#337ab7"> Paper </font>| <a shape="rect" href="javascript:togglebib('icassp2022')" class="togglebib"><font color="#337ab7"> BibTex </font></a>
 									<span class="blurb"><strong>Abstract</strong>: Due to the low scan rate of LiDAR sensors, LiDAR point cloud streams usually have a low frame rate, which is far below that of other sensors such as cameras. This could incur frame rate mismatch while conducting multi-sensor data fusion. LiDAR point cloud temporal interpolation aims to synthesize the non-existing intermediate frame between input frames to improve the frame rate of point clouds. However, the existing methods heavily depend on 3D scene flow or 2D flow estimation, which yield huge computational complexity and obstacles in real-time applications. To resolve this issue, we propose a fast and non-flow involved method, which analyzes the LiDAR point cloud by exploiting its corresponding 2D range images (RIs). Specifically, we develop a Siamese context extractor containing asymmetrical convolution kernels to learn the shape context and spatial feature of RIs, and the 3D space-time convolutions are introduced to precisely capture the temporal characteristics. Experimental results have clearly shown that our method is much faster than the state-of-the-art LiDAR point cloud temporal interpolation methods on various datasets, while delivering either comparable or superior frame interpolation performance.
 									</span>
 <pre xml:space="preserve">
 	@INPROCEEDINGS{icassp2022,
 		author={Zhao, Lili and Lin, Xuhu and Wang, Wenyi and Ma, Kai-Kuang and Chen, Jianwen},
-		booktitle={ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+		booktitle={Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
 		title={Rangeinet: Fast Lidar Point Cloud Temporal Interpolation}, 
 		year={2022},
 		volume={},
@@ -193,7 +190,7 @@
 								<li class="pub" id="Lin_2022_ACCV">
 									<strong>MVFI-Net: Motion-aware Video Frame Interpolation Network</strong><br>
 									Xuhu Lin, <U>Lili Zhao</U>, Xi Liu, and Jianwen Chen<br>
-                                                Proceedings of the Asian Conference on Computer Vision (ACCV), 2022, pp. 3690-3706.<br>
+                                                Asian Conference on Computer Vision (ACCV), 2022.<br>
 									<a shape="rect" href="javascript:toggleabs('Lin_2022_ACCV')" class="toggleabs"><font color="#337ab7"> Abstract </font></a>| <a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Lin_MVFI-Net_Motion-aware_Video_Frame_Interpolation_Network_ACCV_2022_paper.pdf" target="_blank" rel="noopener"> <font color="#337ab7"> Paper </font></a>| <a shape="rect" href="javascript:togglebib('Lin_2022_ACCV')" class="togglebib"><font color="#337ab7"> BibTex </font></a>
 									<span class="blurb"><strong>Abstract</strong>: Video frame interpolation (VFI) is to synthesize the intermediate frame given successive frames. Most existing learning-based VFI methods generate each target pixel by using the warping operation with either one predicted kernel or flow, or both. However, their performances are often degraded due to the issues on the limited direction and scope of the reference regions, especially encountering complex motions. In this paper, we propose a novel motion-aware VFI network (MVFI-Net) to address these issues. One of the key novelties of our method lies in the newly developed warping operation, i.e., motion-aware convolution (MAC). By predicting multiple extensible temporal motion vectors (MVs) and filter kernels for each target pixel, the direction and scope could be enlarged simultaneously. Besides, we first attempt to incorporate the pyramid structure into the kernel-based VFI, which can decompose large motions into smaller scales to improve the prediction efficiency. The quantitative and qualitative experimental results have demonstrated the proposed method delivers the state-of-the-art performance on the diverse benchmarks with various resolutions.
 									</span>
@@ -211,14 +208,16 @@
 								<li class="pub" id="vcip2021">
 									<strong>Deep Inter Prediction via Reference Frame Interpolation for Blurry Video Coding</strong><br>
 									Zezhi Zhu, <U>Lili Zhao</U>, Xuhu Lin, Xuezhou Guo, and Jianwen Chen.<br> 
-									2021 International Conference on Visual Communications and Image Processing (VCIP), Munich, Germany, 2021, pp. 1-5. <br>
-									<a shape="rect" href="javascript:toggleabs('vcip2021')" class="toggleabs"><font color="#337ab7"> Abstract </font></a>| <a href="https://ieeexplore.ieee.org/abstract/document/9675429" target="_blank" rel="noopener"> <font color="#337ab7"> Paper </font> </a>| <a href="https://mega.nz/folder/4HJGSKqQ#1LLBggxNLxJt_0vk8SacNA" target="_blank" rel="noopener"> <font color="#337ab7"> Dataset </font></a>| <a shape="rect" href="javascript:togglebib('shen2020jnd')" class="togglebib"><font color="#337ab7"> BibTex </font></a>
+									IEEE International Conference on Visual Communications and Image Processing (VCIP), Munich, Germany, 2021. <br>
+									<a shape="rect" href="javascript:toggleabs('vcip2021')" class="toggleabs"><font color="#337ab7"> Abstract </font></a>|
+									<a href="https://ieeexplore.ieee.org/abstract/document/9675429" target="_blank" rel="noopener"> <font color="#337ab7"> Paper </font> </a>| 
+									<a shape="rect" href="javascript:togglebib('shen2020jnd')" class="togglebib"><font color="#337ab7"> BibTex </font></a>
 									<span class="blurb"><strong>Abstract</strong>: In High Efficiency Video Coding (HEVC), inter prediction is an important module for removing temporal redundancy. The accuracy of inter prediction is much affected by the similarity between the current and reference frames. However, for blurry videos, the performance of inter coding will be degraded by varying motion blur, which is derived from camera shake or the acceleration of objects in the scene. To address this problem, we propose to synthesize additional reference frame via the frame interpolation network. The synthesized reference frame is added into reference picture lists to supply more credible reference candidate, and the searching mechanism for motion candidates is changed accordingly. In addition, to make our interpolation network more robust to various inputs with different compression artifacts, we establish a new blurry video database to train our network. With the well-trained frame interpolation network, compared with the reference software HM-16.9, the proposed method achieves on average 1.55% BD-rate reduction under random access (RA) configuration for blurry videos, and also obtains on average 0.75% BD-rate reduction for common test sequences.
 									</span>
 <pre xml:space="preserve">
 	@INPROCEEDINGS{vcip2021,
 		author={Zhu, Zezhi and Zhao, Lili and Lin, Xuhu and Guo, Xuezhou and Chen, Jianwen},
-		booktitle={2021 International Conference on Visual Communications and Image Processing (VCIP)}, 
+		booktitle={Proceedings of the International Conference on Visual Communications and Image Processing (VCIP)}, 
 		title={Deep Inter Prediction via Reference Frame Interpolation for Blurry Video Coding}, 
 		year={2021},
 		volume={},
@@ -230,14 +229,14 @@
 								<li div class="pub" id="bmsb1">
 									<strong>Lossless Point Cloud Attribute Compression with Normal-based Intra Prediction</strong><br>
 									Qian Yin, Qingshan Ren, <U>Lili Zhao</U>, Wenyi Wang, and Jianwen Chen<br> 
-									2021 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB), Chengdu, China, 2021. <br>
+									IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB), Chengdu, China, 2021. <br>
 									<a shape="rect" href="javascript:toggleabs('bmsb1')" class="toggleabs"><font color="#337ab7"> Abstract </font></a>| <a href="https://ieeexplore.ieee.org/abstract/document/9547021" target="_blank" rel="noopener"> <font color="#337ab7"> Paper </font></a>| <a shape="rect" href="javascript:togglebib('bmsb1')" class="togglebib"><font color="#337ab7"> BibTex </font></a>
 									<span class="blurb"><strong>Abstract</strong>: The sparse LiDAR point clouds become more and more popular in various applications, e.g., the autonomous driving. However, for this type of data, there exists much under-explored space in the corresponding compression framework proposed by MPEG, i.e., geometry-based point cloud compression (G-PCC). In G-PCC, only the distance-based similarity is considered in the intra prediction for the attribute compression. In this paper, we propose a normal-based intra prediction scheme, which provides a more efficient lossless attribute compression by introducing the normals of point clouds. The angle between normals is used to further explore accurate local similarity, which optimizes the selection of predictors. We implement our method into the G-PCC reference software. Experimental results over LiDAR acquired datasets demonstrate that our proposed method is able to deliver better compression performance than the G-PCC anchor, with 2.1% gains on average for lossless attribute coding.
 									</span>
 <pre xml:space="preserve">
 	@INPROCEEDINGS{bmsb1,
 		author={Yin, Qian and Ren, Qingshan and Zhao, Lili and Wang, Wenyi and Chen, Jianwen},
-		booktitle={2021 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB)}, 
+		booktitle={Proceedings of the IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB)}, 
 		title={Lossless Point Cloud Attribute Compression with Normal-based Intra Prediction}, 
 		year={2021},
 		volume={},
@@ -249,14 +248,14 @@
 								<li class="pub" id="bmsb2">
 									<strong>RAI-Net: Range-Adaptive LiDAR Point Cloud Frame Interpolation Network</strong><br>
 									<U>Lili Zhao</U>, Zezhi Zhu, Xuhu Lin, Xuezhou Guo, Qian Yin, and Jianwen Chen.<br> 
-									2021 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB), Chengdu, China, 2021. <br>
+									IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB), Chengdu, China, 2021. <br>
 									<a shape="rect" href="javascript:toggleabs('bmsb2')" class="toggleabs"><font color="#337ab7"> Abstract </font></a>| <a href="https://ieeexplore.ieee.org/abstract/document/9547131" target="_blank" rel="noopener"> <font color="#337ab7"> Paper </font> </a>| <a shape="rect" href="javascript:togglebib('bmsb2')" class="togglebib"><font color="#337ab7"> BibTex </font></a>
 									<span class="blurb"><strong>Abstract</strong>: LiDAR point cloud frame interpolation, which synthesizes the intermediate frame between the captured frames, has emerged as an important issue for many applications. Especially for reducing the amounts of point cloud transmission, it is by predicting the intermediate frame based on the reference frames to upsample data to high frame rate ones. However, due to high-dimensional and sparse characteristics of point clouds, it is more difficult to predict the intermediate frame for LiDAR point clouds than videos. In this paper, we propose a novel LiDAR point cloud frame interpolation method, which exploits range images (RIs) as an intermediate representation with CNNs to conduct the frame interpolation process. Considering the inherited characteristics of RIs differ from that of color images, we introduce spatially adaptive convolutions to extract range features adaptively, while a high-efficient flow estimation method is presented to generate optical flows. The proposed model then warps the input frames and range features, based on the optical flows to synthesize the interpolated frame. Extensive experiments on the KITTI dataset have clearly demonstrated that our method consistently achieves superior frame interpolation results with better perceptual quality to that of using state-of-the-art video frame interpolation methods. The proposed method could be integrated into any LiDAR point cloud compression systems for inter prediction.
 									</span>
 <pre xml:space="preserve">
 	@INPROCEEDINGS{bmsb2,
 		author={Zhao, Lili and Zhu, Zezhi and Lin, Xuhu and Guo, Xuezhou and Yin, Qian and Wang, Wenyi and Chen, Jianwen},
-		booktitle={2021 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB)}, 
+		booktitle={Proceedings of the IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB)}, 
 		title={RAI-Net: Range-Adaptive LiDAR Point Cloud Frame Interpolation Network}, 
 		year={2021},
 		volume={},
@@ -268,14 +267,14 @@
 								<li class="pub" id="Guo2019">
 									<strong>An Unsupervised Optical Flow Estimation for Lidar Image Sequences</strong><br>
 									Xuezhou Guo, Xuhu Lin, <U>Lili Zhao</U>, Zezhi Zhu, and Jianwen Chen. <br> 
-									2021 IEEE International Conference on Image Processing (ICIP), Anchorage, AK, USA, 2021, pp. 2613-2617. <br>
+									IEEE International Conference on Image Processing (ICIP), Anchorage, AK, USA, 2021. <br>
 									<a shape="rect" href="javascript:toggleabs('Guo2019')" class="toggleabs"><font color="#337ab7"> Abstract </font></a>| <a href="https://ieeexplore.ieee.org/abstract/document/9506376" target="_blank" rel="noopener"> <font color="#337ab7"> Paper </font></a>|<a shape="rect" href="javascript:togglebib('Guo2019')" class="togglebib"><font color="#337ab7"> BibTex </font></a>
 									<span class="blurb"><strong>Abstract</strong>: In recent years, the LiDAR images, as a 2D compact representation of 3D LiDAR point clouds, are widely applied in various tasks, e.g., 3D semantic segmentation, LiDAR point cloud compression (PCC). Among these works, the optical flow estimation for LiDAR image sequences has become a key issue, especially for the motion estimation of the inter prediction in PCC. However, the existing optical flow estimation models are likely to be unreliable for LiDAR images. In this work, we first propose a light-weight flow estimation model for LiDAR image sequences. The key novelty of our method lies in two aspects. One is that for the different characteristics (with the spatial-variation feature distribution) of the LiDAR images w.r.t. the normal color images, we introduce the attention mechanism into our model to improve the quality of the estimated flow. The other one is that to tackle the lack of large-scale LiDAR-image annotations, we present an unsupervised method, which directly minimizes the inconsistency between the reference image and the reconstructed image based on the estimated optical flow. Extensive experimental results have shown that our proposed model outperforms other mainstream models on the KITTI dataset, with much fewer parameters.
 									</span>
 <pre xml:space="preserve">
 	@INPROCEEDINGS{Guo2019,
 		author={Guo, Xuezhou and Lin, Xuhu and Zhao, Lili and Zhu, Zezhi and Chen, Jianwen},
-		booktitle={2021 IEEE International Conference on Image Processing (ICIP)}, 
+		booktitle={Proceedings of the IEEE International Conference on Image Processing (ICIP)}, 
 		title={An Unsupervised Optical Flow Estimation for Lidar Image Sequences}, 
 		year={2021},
 		volume={},
@@ -287,14 +286,14 @@
 								<li div class="pub" id="Wu_2019">
 									<strong>PRED: A Parallel Network for Handling Multiple Degradations via Single Model in Single Image Super-Resolution</strong><br>
 									Guangyang Wu, <U>Lili Zhao</U>, Wenyi Wang, Liaoyuan Zeng, and Jianwen Chen<br> 
-									2019 IEEE International Conference on Image Processing (ICIP), Taipei, Taiwan, 2019, pp. 2881-2885. <br>
+									IEEE International Conference on Image Processing (ICIP), Taipei, Taiwan, 2019. <br>
 									<a shape="rect" href="javascript:toggleabs('Wu_2019')" class="toggleabs"><font color="#337ab7"> Abstract </font></a>| <a href="https://ieeexplore.ieee.org/abstract/document/8804409" target="_blank" rel="noopener"> <font color="#337ab7"> Paper </font></a>| <a shape="rect" href="javascript:togglebib('Wu_2019')" class="togglebib"><font color="#337ab7"> BibTex </font></a>
 									<span class="blurb"><strong>Abstract</strong>: Existing SISR (single image super-resolution) methods mostly assume that a low-resolution (LR) image is bicubicly down-sampled from its high-resolution (HR) counterpart, which inevitably give rise to poor performance when the degradation is out of assumption. To address this issue, we propose a framework PRED (parallel residual and encoder-decoder network) with an innovative training strategy to enhance the robustness to multiple degradations. Consequently, the network can handle spatially variant degradations, which significantly improves the practicability of the proposed method. Extensive experimental results on real LR images show that the proposed method can not only produce favorable results on multiple degradations, but also reconstruct visually plausible HR images.
 									</span>
 <pre xml:space="preserve">
 	@INPROCEEDINGS{Wu_2019,
 		author={Wu, Guangyang and Zhao, Lili and Wang, Wenyi and Zeng, Liaoyuan and Chen, Jianwen},
-		booktitle={2019 IEEE International Conference on Image Processing (ICIP)}, 
+		booktitle={Proceedings of the IEEE International Conference on Image Processing (ICIP)}, 
 		title={PRED: A Parallel Network for Handling Multiple Degradations via Single Model in Single Image Super-Resolution}, 
 		year={2019},
 		volume={},
@@ -306,14 +305,14 @@
 								<li class="pub" id="scc_icip2019">
 									<strong>Efficient screen content coding based on convolutional neural network guided by a large-scale database</strong><br>
 									<U>Lili Zhao</U>, Zhiwen Wei, Weitong Cai, Wenyi Wang, Liaoyuan Zeng, and Jianwen Chen. <br> 
-									2019 IEEE International Conference on Image Processing (ICIP), Taipei, Taiwan, 2019, pp. 2656-2660. <br>
+									IEEE International Conference on Image Processing (ICIP), Taipei, Taiwan, 2019. <br>
 									<a shape="rect" href="javascript:toggleabs('scc_icip2019')" class="toggleabs"><font color="#337ab7"> Abstract </font></a>| <a href="https://ieeexplore.ieee.org/abstract/document/8803294" target="_blank" rel="noopener"> <font color="#337ab7"> Paper </font></a>|<a shape="rect" href="javascript:togglebib('scc_icip2019')" class="togglebib"><font color="#337ab7"> BibTex </font></a>
 									<span class="blurb"><strong>Abstract</strong>: Screen content videos (SCVs) are becoming popular in many applications. Compared with natural content videos (NCVs), the SCVs have different characteristics. Therefore, the screen content coding (SCC) based on HEVC adopts some new coding tools (intra block copy and palette mode etc.) to improve coding efficiency, but these tools increase the computational complexity as well. In this paper, we propose to predict the CU partition of the SCVs by a convolutional neural network (CNN) which is trained by the large-scale database that we firstly established for screen content coding. The proposed approach is implemented in SCC reference software SCM-6.1. Experimental results show that our proposed approach can save 53.2% encoding time with 2.67% BD-rate increase on average in All Intra (AI) configurations.
 									</span>
 <pre xml:space="preserve">
 	@INPROCEEDINGS{scc_icip2019,
 		author={Zhao, Lili and Wei, Zhiwen and Cai, Weitong and Wang, Wenyi and Zeng, Liaoyuan and Chen, Jianwen},
-		booktitle={2019 IEEE International Conference on Image Processing (ICIP)}, 
+		booktitle={Proceedings of the IEEE International Conference on Image Processing (ICIP)}, 
 		title={Efficient Screen Content Coding Based on Convolutional Neural Network Guided by a Large-Scale Database}, 
 		year={2019},
 		volume={},
@@ -325,14 +324,14 @@
 								<li class="pub" id="vrcoding2018">
 									<strong>High Efficient VR Video Coding Based on Auto Projection Selection Using Transferable Features</strong><br>
 									<U>Lili Zhao</U>, Meng Zhang, Wenyi Wang, Rumin Zhang, Liaoyuan Zeng, and Jianwen Chen. <br> 
-									2018 IEEE Visual Communications and Image Processing (VCIP), Taichung, Taiwan, 2018. <br>
+									IEEE Visual Communications and Image Processing (VCIP), Taichung, Taiwan, 2018. <br>
 									<a shape="rect" href="javascript:toggleabs('vrcoding2018')" class="toggleabs"><font color="#337ab7"> Abstract </font></a>| <a href="https://ieeexplore.ieee.org/abstract/document/8698628" target="_blank" rel="noopener"> <font color="#337ab7"> Paper </font></a>|<a shape="rect" href="javascript:togglebib('vrcoding2018')" class="togglebib"><font color="#337ab7"> BibTex </font></a>
 									<span class="blurb"><strong>Abstract</strong>: Given multiple texture projection methods from the sphere surface to the planar surface, this paper proposes an adaptive selection mode that automatically chooses the appropriate projection method to obtain high compression efficiency of the VR video. The video compression efficiency is inherently affected by the video content, which is closely related to the projection method in the case of VR video encoding. In order to represent the VR video content in a compact manner, a feature vector (transferable feature) for each frame is extracted by a Res-CNN which is pre-trained by a large scale data set for general classification. Afterwards, the relation between the feature and the optimal projection method is investigated by using PCA-KNN, which can project the initial feature vector to a subspace where the VR videos can be efficiently classified with low ambiguity. The experimental results show that the proposed method can select the appropriate projection method that generates the best BD rate.
 									</span>
 <pre xml:space="preserve">
 	@INPROCEEDINGS{vrcoding2018,
 		author={Zhao, Lili and Zhang, Meng and Wang, Wenyi and Zhang, Rumin and Zeng, Liaoyuan and Chen, Jianwen},
-		booktitle={2018 IEEE Visual Communications and Image Processing (VCIP)}, 
+		booktitle={Proceedings of the IEEE Visual Communications and Image Processing (VCIP)}, 
 		title={High Efficient VR Video Coding Based on Auto Projection Selection Using Transferable Features}, 
 		year={2018},
 		volume={},
@@ -340,9 +339,6 @@
 		pages={1-4},
 		doi={10.1109/VCIP.2018.8698628}}</pre>
 								</li>
-
-
-
 							</ul>
 							</div>
 						</div>
